@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+
+header {
+    background-color: #5c5e5d;
+    color: #c29f99;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0rem 3rem 0rem 3rem;
+}
+
+span {
+    font-family: "Skranji", system-ui;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+
+    font-size: 1.5rem;
+}
+
+.git {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #c29f99;
+}

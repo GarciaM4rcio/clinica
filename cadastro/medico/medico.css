@@ -1,0 +1,48 @@
+.medico {
+    border-top: black solid 1px;
+    border-right: black solid 1px;;
+    border-left: black solid 1px;;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: white;
+    color: black;
+}
+
+.medico:hover {
+    color: black;
+}
+
+.paciente {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.especialidade {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.nome{
+    min-width: 80vh;
+}
+
+.cep {
+    max-width: 25vh;
+}
+
+.numero {
+    max-width: 20vh;
+}
+
+.endereco {
+    min-width: 80vh;
+}
+
+.crm {
+    min-width: 40vh;
+}
+
+.salario {
+    min-width: 20vh;
+}
+
+.codEsp {
+    min-width: 40vh;
+}

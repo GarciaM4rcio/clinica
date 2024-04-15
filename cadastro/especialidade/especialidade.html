@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica - GARCIA</title>
+    <link rel="stylesheet" type="text/css" href="../../styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../styles/header.css">
+    <link rel="stylesheet" type="text/css" href="../../styles/body.css">
+    <link rel="stylesheet" type="text/css" href="../cadastro.css">
+    <link rel="stylesheet" type="text/css" href="especialidade.css">
+</head>
+<body>
+    <header>
+        <span>garcia</span>
+        <div>
+            <ul  class="menu">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="paciente.html">Cadastro</a></li>
+                <li><a>Consultas</a></li>
+            </ul>
+        </div>
+        <a class="git" href="https://github.com/GarciaM4rcio">Github</a>
+    </header>
+    <main>
+        <div class="cabecalho">
+            <h1>cadastro</h1>
+            <div class="lista">
+                <a class="paciente" href="../paciente/paciente.html">Paciente</a>
+                <a class="medico" href="../medico/medico.html">Médico</a>
+                <a class="especialidade">Especialidade</a>
+            </div>
+        </div>
+
+        <div class="formulario">
+            <form action="especialidade.php" method="post">
+                <label>Descrição<input type="text" maxlength="100" name="descricao" class="descricao" required autofocus></label>
+                <label>Sigla<input type="text" maxlength="3" name="sigla" class="sigla" required></label>
+                <input type="reset" value="Limpar" class="limpar">
+                <input type="submit" value="Cadastrar" class="enviar">
+            </form>
+        </div>
+    </main>
+</body>
+</html>

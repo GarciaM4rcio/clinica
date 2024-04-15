@@ -1,0 +1,44 @@
+.paciente {
+    border-top: black solid 1px;
+    border-right: black solid 1px;;
+    border-left: black solid 1px;;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: white;
+    color: black;    
+}
+
+.paciente:hover {
+    color: black;
+}
+
+.medico {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.especialidade {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.nome{
+    min-width: 80vh;
+}
+
+.cep {
+    max-width: 20vh;
+}
+
+.numero {
+    max-width: 20vh;
+}
+
+.complemento {
+    min-width: 35vh;
+}
+
+.endereco {
+    min-width: 80vh;
+}
+
+.email {
+    min-width: 80vh;
+}

@@ -1,0 +1,29 @@
+.especialidade {
+    border-top: black solid 1px;
+    border-right: black solid 1px;;
+    border-left: black solid 1px;;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: white;
+    color: black;
+}
+
+.especialidade:hover {
+    color: black;
+}
+
+.medico {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.paciente {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.nome {
+    min-width: 60vh;
+}
+
+.sigla {
+    max-width: 10vh;
+    text-transform: uppercase;
+}
