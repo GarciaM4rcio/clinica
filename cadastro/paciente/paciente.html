@@ -27,13 +27,15 @@
             <h1>cadastro</h1>
             <div class="lista">
                 <a class="paciente">Paciente</a>
-                <a class="medico" href="../medico/medico.html">Médico</a>
+                <a class="medico" href="../medico/medico.php">Médico</a>
                 <a class="especialidade" href="../especialidade/especialidade.html">Especialidade</a>
+                <a class="enfermeiro" href="../enfermeiro/enfermeiro.html">Enfermeiro</a>
+                <a class="funcao" href="../funcao/funcao.html">Função</a>
             </div>
         </div>
 
-        <div class="formulario">
-            <form action="paciente.php" method="post">
+        <div class="formulario">            
+            <form action="paciente.php" method="post">                
                 <label>Nome<input type="text" maxlength="100" name="nome" required class="nome" autofocus></label>
                 <label>Cep<input type="text" maxlength="8" name="cep" required class="cep" id="cep" onblur="carregaCep()"></label>
                 <label>Numero<input type="text" maxlength="10" name="numero" required class="numero"></label>

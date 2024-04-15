@@ -19,7 +19,15 @@
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
-.nome {
+.enfermeiro {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.funcao {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.descricao {
     min-width: 60vh;
 }
 

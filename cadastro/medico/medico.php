@@ -29,11 +29,13 @@
                 <a class="paciente" href="../paciente/paciente.html">Paciente</a>
                 <a class="medico">Médico</a>
                 <a class="especialidade" href="../especialidade/especialidade.html">Especialidade</a>
+                <a class="enfermeiro" href="../enfermeiro/enfermeiro.html">Enfermeiro</a>
+                <a class="funcao" href="../funcao/funcao.html">Função</a>
             </div>
         </div>
 
         <div class="formulario">
-            <form action="fmedico.php" method="post">
+            <form action="smedico.php" method="post">
                 <label>Nome<input type="text" maxlength="100" name="nome" required class="nome" autofocus></label>
                 <label>Cpf<input type="text" maxlength="11" name="cpf" required class="cpf"></label>
                 <label>Cep<input type="text" maxlength="8" name="cep" required class="cep" id="cep" onblur="carregaCep()"></label>
@@ -59,13 +61,14 @@
                 <label>Celular<input type="text" maxlength="15" name="celular" id="celular" placeholder="(XX)XXXX-XXXX" required class="celular"></label>
                 <label>Especialidade
                     <select name="codEsp" class="codEsp">
+                        <option value="" disabled selected>-</option>
                         <?php 
-                        include('../conexao.php'); 
+                        include('../../conexao.php'); 
                         $query='SELECT * FROM especialidade ORDER BY descricao;';
                         $resu=mysqli_query($con,$query) or die (mysqli_connect_error());
                         while ($reg=mysqli_fetch_array($resu)) {
                         ?>
-                        <option value="<?php echo $reg['id'];>?>"> <?php echo $reg['nome'];?></option>
+                        <option value="<?php echo $reg['id'];?>"> <?php echo $reg['descricao'];?></option>
                         <?php } mysqli_close($con)?>    
                     </select>
                 </label>

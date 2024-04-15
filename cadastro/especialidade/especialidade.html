@@ -27,15 +27,18 @@
             <h1>cadastro</h1>
             <div class="lista">
                 <a class="paciente" href="../paciente/paciente.html">Paciente</a>
-                <a class="medico" href="../medico/medico.html">Médico</a>
+                <a class="medico" href="../medico/medico.php">Médico</a>
                 <a class="especialidade">Especialidade</a>
+                <a class="enfermeiro" href="../enfermeiro/enfermeiro.html">Enfermeiro</a>
+                <a class="funcao" href="../funcao/funcao.html">Função</a>
             </div>
         </div>
 
         <div class="formulario">
-            <form action="especialidade.php" method="post">
+            <form action="especialidade.php" method="post">                
                 <label>Descrição<input type="text" maxlength="100" name="descricao" class="descricao" required autofocus></label>
                 <label>Sigla<input type="text" maxlength="3" name="sigla" class="sigla" required></label>
+                
                 <input type="reset" value="Limpar" class="limpar">
                 <input type="submit" value="Cadastrar" class="enviar">
             </form>

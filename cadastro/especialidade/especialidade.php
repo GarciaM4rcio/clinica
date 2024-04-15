@@ -1,8 +1,8 @@
 <?php
-$nome=$_POST['descricao'];
+$descricao=$_POST['descricao'];
 $sigla=strtoupper($_POST['sigla']); 
 
-include('../conexao.php');
+include('../../conexao.php');
 
 $query="INSERT INTO especialidade (descricao,sigla) VALUES ('$descricao','$sigla')";
 
