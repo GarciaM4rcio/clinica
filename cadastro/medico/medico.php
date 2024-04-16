@@ -29,7 +29,7 @@
                 <a class="paciente" href="../paciente/paciente.html">Paciente</a>
                 <a class="medico">Médico</a>
                 <a class="especialidade" href="../especialidade/especialidade.html">Especialidade</a>
-                <a class="enfermeiro" href="../enfermeiro/enfermeiro.html">Enfermeiro</a>
+                <a class="enfermeiro" href="../enfermeiro/enfermeiro.php">Enfermeiro</a>
                 <a class="funcao" href="../funcao/funcao.html">Função</a>
             </div>
         </div>
