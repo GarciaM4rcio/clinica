@@ -1,0 +1,44 @@
+.paciente {
+    border-top: black solid 1px;
+    border-right: black solid 1px;;
+    border-left: black solid 1px;;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: white;
+    color: black;    
+}
+
+.paciente:hover {
+    color: black;
+}
+
+.medico {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.especialidade {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.enfermeiro {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.funcao {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+table {    
+    display: flex;    
+    border: black solid 1px;
+    justify-content: flex-end;    
+}
+
+td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: black solid 1px; 
+}
+
+.nome {
+    flex-grow: 1;
+}

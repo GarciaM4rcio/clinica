@@ -6,14 +6,14 @@ $cep=$_POST['cep'];
 $endereco=$_POST['endereco'];
 $bairro=$_POST['bairro'];
 $cidade=$_POST['cidade'];
-$estado=strtoupper($_POST['estado'];)
+$estado=strtoupper($_POST['estado']);
 $cpf=$_POST['cpf'];
 $rg=$_POST['rg'];
 $telefone=$_POST['telefone'];
 $celular=$_POST['celular'];
 $email=$_POST['email'];
 
-include('../conexao.php');
+include('../../conexao.php');
 
 $query="INSERT INTO paciente (nome,numero,complemento,cep,endereco,bairro,cidade,estado,cpf,rg,telefone,
 celular,email) VALUES ('$nome','$numero','$complemento','$cep','$endereco','$bairro','$cidade','$estado',

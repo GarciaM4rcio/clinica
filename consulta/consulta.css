@@ -1,0 +1,47 @@
+main {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #5c5e5d;
+    color: #c29f99;
+    gap: 0.5rem;
+
+    padding: 1rem 1rem 0rem 1rem;
+    min-width: 50vh;
+    border-left: black solid 1px;
+    border-right: black solid 1px;
+    border-top: black solid 1px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: "Skranji", system-ui;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+form {
+    border-right: black solid 1px;
+    border-left: black solid 1px;
+    border-bottom: black solid 1px;
+    max-width: 50vh;
+    min-width: 50vh;
+    padding: 1rem;       
+}
+
+.lista {
+    display: flex;
+    align-self: center;
+    justify-self: end;
+
+    font-size: 1rem;
+}

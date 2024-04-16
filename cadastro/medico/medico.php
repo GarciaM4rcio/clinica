@@ -17,7 +17,7 @@
             <ul  class="menu">
                 <li><a href="../../index.html">Home</a></li>
                 <li><a href="paciente.html">Cadastro</a></li>
-                <li><a>Consultas</a></li>
+                <li><a href="../../consulta/paciente/paciente.php">Consultas</a></li>
             </ul>
         </div>
         <a class="git" href="https://github.com/GarciaM4rcio">Github</a>
