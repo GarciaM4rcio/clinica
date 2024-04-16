@@ -34,13 +34,16 @@
             </div>
         </div>
 
-        <div class="formulario">
-            <form action="especialidade.php" method="post">                
-                <label>Descrição<input type="text" maxlength="100" name="descricao" class="descricao" required autofocus></label>
-                <label>Sigla<input type="text" maxlength="3" name="sigla" class="sigla" required></label>
-                
-                <input type="reset" value="Limpar" class="limpar">
-                <input type="submit" value="Cadastrar" class="enviar">
+        <div>
+            <form action="especialidade.php" method="post">
+                <div class="formulario">                
+                    <label>Descrição<input type="text" maxlength="100" name="descricao" class="descricao" required autofocus></label>
+                    <label>Sigla<input type="text" maxlength="3" name="sigla" class="sigla" required></label>
+                </div>
+                <div class="botoes">
+                    <input type="reset" value="Limpar" class="limpar">
+                    <input type="submit" value="Cadastrar" class="enviar">
+                </div>
             </form>
         </div>
     </main>

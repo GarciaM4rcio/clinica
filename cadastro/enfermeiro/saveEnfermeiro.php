@@ -1,23 +1,25 @@
 <?php
 $nome=$_POST['nome'];
 $numero=$_POST['numero'];
-$complemento=$_POST['complemento'];
 $cep=$_POST['cep'];
 $endereco=$_POST['endereco'];
 $bairro=$_POST['bairro'];
 $cidade=$_POST['cidade'];
-$estado=strtoupper($_POST['estado'];)
+$estado=$_POST['estado'];
 $cpf=$_POST['cpf'];
 $rg=$_POST['rg'];
 $telefone=$_POST['telefone'];
 $celular=$_POST['celular'];
 $email=$_POST['email'];
+$salario=$_POST['salario'];
+$turno=$_POST['turno'];
 
-include('../conexao.php');
+include('../../conexao.php');
 
-$query="INSERT INTO paciente (nome,numero,complemento,cep,endereco,bairro,cidade,estado,cpf,rg,telefone,
-celular,email) VALUES ('$nome','$numero','$complemento','$cep','$endereco','$bairro','$cidade','$estado',
-'$cpf','$rg','$telefone','$celular','$email')";
+$query="INSERT INTO enfermeiro (nome,numero,cep,endereco,bairro,cidade,estado,cpf,rg,
+telefone,celular,email,salario,turno_trabalho) VALUES ('$nome','$numero','$cep','$endereco',
+'$bairro','$cidade','$estado','$cpf','$rg','$telefone','$celular','$email','$salario'
+,'$turno')";
 
 $resu=mysqli_query($con,$query);
 

@@ -35,8 +35,10 @@ form {
     border-bottom: black solid 1px;
     max-width: 80vh;
     min-width: 80vh;
-    padding: 1rem;  
-    
+    padding: 1rem;       
+}
+
+.formulario {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -56,6 +58,13 @@ label {
     justify-self: end;
 
     font-size: 1rem;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
 }
 
 .limpar, .enviar {

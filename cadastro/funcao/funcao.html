@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica - GARCIA</title>
+    <link rel="stylesheet" type="text/css" href="../../styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="../../styles/header.css">
+    <link rel="stylesheet" type="text/css" href="../../styles/body.css">
+    <link rel="stylesheet" type="text/css" href="../cadastro.css">
+    <link rel="stylesheet" type="text/css" href="funcao.css">
+</head>
+<body>
+    <header>
+        <span>garcia</span>
+        <div>
+            <ul  class="menu">
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="paciente.html">Cadastro</a></li>
+                <li><a>Consultas</a></li>
+            </ul>
+        </div>
+        <a class="git" href="https://github.com/GarciaM4rcio">Github</a>
+    </header>
+    <main>
+        <div class="cabecalho">
+            <h1>cadastro</h1>
+            <div class="lista">
+                <a class="paciente" href="../paciente/paciente.html">Paciente</a>
+                <a class="medico" href="../medico/medico.php">Médico</a>
+                <a class="especialidade" href="../especialidade/especialidade.html">Especialidade</a>
+                <a class="enfermeiro" href="../enfermeiro/enfermeiro.html">Enfermeiro</a>
+                <a class="funcao">Função</a>
+            </div>
+        </div>
+
+        <div>
+            <form action="funcao.php" method="post">
+                <div class="formulario">                
+                    <label>Descrição<input type="text" maxlength="100" name="descricao" class="descricao" required autofocus></label>
+                </div>
+                <div class="botoes">
+                    <input type="reset" value="Limpar" class="limpar">
+                    <input type="submit" value="Cadastrar" class="enviar">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

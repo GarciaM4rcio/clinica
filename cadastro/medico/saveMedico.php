@@ -2,6 +2,7 @@
 $nome=$_POST['nome'];
 $cpf=$_POST['cpf'];
 $numero=$_POST['numero'];
+$cep=$_POST['cep'];
 $endereco=$_POST['endereco'];
 $bairro=$_POST['bairro'];
 $cidade=$_POST['cidade'];
@@ -13,8 +14,8 @@ $codEsp=$_POST['codEsp'];
 
 include('../conexao.php');
 
-$query="INSERT INTO paciente (nome,cpf,numero,endereco,bairro,cidade,estado,crm,salario,celular,codEsp) 
-VALUES ('$nome','$cpf','$numero','$endereco','$bairro','$cidade','$estado','$crm','$salario','$celular',
+$query="INSERT INTO paciente (nome,cpf,numero,cep,endereco,bairro,cidade,estado,crm,salario,celular,codEsp) 
+VALUES ('$nome','$cpf','$numero','$cep','$endereco','$bairro','$cidade','$estado','$crm','$salario','$celular',
 '$codEsp')";
 
 $resu=mysqli_query($con,$query);

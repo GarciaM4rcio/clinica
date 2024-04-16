@@ -1,0 +1,28 @@
+.funcao {
+    border-top: black solid 1px;
+    border-right: black solid 1px;;
+    border-left: black solid 1px;;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: white;
+    color: black;
+}
+
+.funcao:hover {
+    color: black;
+}
+
+.medico {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.paciente {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.enfermeiro {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.especialidade {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
