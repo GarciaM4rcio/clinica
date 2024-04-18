@@ -15,7 +15,7 @@ main {
     gap: 0.5rem;
 
     padding: 1rem 1rem 0rem 1rem;
-    min-width: 50vh;
+    min-width: 80vh;
     border-left: black solid 1px;
     border-right: black solid 1px;
     border-top: black solid 1px;
@@ -33,9 +33,10 @@ form {
     border-right: black solid 1px;
     border-left: black solid 1px;
     border-bottom: black solid 1px;
-    max-width: 50vh;
-    min-width: 50vh;
-    padding: 1rem;       
+    max-width: 80vh;
+    min-width: 80vh;
+    padding: 1rem;    
+    display: flex;   
 }
 
 .lista {
