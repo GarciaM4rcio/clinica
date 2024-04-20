@@ -48,8 +48,8 @@
                     while ($reg=mysqli_fetch_array($resu)) {
                         echo "<tr class='linha'><td class='id'>".$reg['id']."</td>";
                         echo "<td class='nome'>".$reg['nome']."</td>";                        
-                        echo "<td class='editar'><a href='alterar_paciente.php?id=".$reg['id']."' class='txtEditEditar'>Editar</a></td>";
-                        echo "<td class='excluir'><a href='excluir_paciente.php?id=".$reg['id']."' class='txtEditExcluir'>Excluir 🗑</a></td></tr>";
+                        echo "<td class='editar'><a href='alterar.php?id=".$reg['id']."' class='txtEditEditar'>Editar</a></td>";
+                        echo "<td class='excluir'><a href='excluir.php?id=".$reg['id']."' class='txtEditExcluir'>Excluir 🗑</a></td></tr>";
                     }
                 ?>
             </table>    

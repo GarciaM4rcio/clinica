@@ -26,7 +26,6 @@ h1 {
     font-family: "Skranji", system-ui;
     font-style: normal;
     font-weight: 700;
-    text-transform: uppercase;
 }
 
 form {
@@ -36,7 +35,8 @@ form {
     max-width: 80vh;
     min-width: 80vh;
     padding: 1rem;    
-    display: flex;   
+    display: flex;
+    flex-direction: column;   
 }
 
 .lista {
@@ -45,4 +45,41 @@ form {
     justify-self: end;
 
     font-size: 1rem;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.atualizar, .cancelar {
+  padding: 0.5rem 2rem;
+  background-color: #5c5e5d;
+  border-radius: 20rem;
+  border: 0;
+  font-family: "Skranji", system-ui;
+  color: #c29f99;
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  max-height: none;
+}
+
+input {
+    max-height: 1rem;
 }
