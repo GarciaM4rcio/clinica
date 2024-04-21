@@ -58,7 +58,7 @@
                         <option value="sp">SP</option><option value="se">SE</option><option value="to">TO</option>
                     </select></label>                
                     <label>CRM<input type="text" maxlength="20" name="crm" required class="crm"></label>
-                    <label>Salario<input type="number" min="0" max="30000" step="100" name="salario" class="salario" required></label>
+                    <label>Salario<input type="number" min="0" max="40000" step="100" name="salario" class="salario" required></label>
                     <label>Celular<input type="text" maxlength="15" name="celular" id="celular" placeholder="(XX)XXXX-XXXX" required class="celular"></label>
                     <label>Especialidade
                         <select name="codEsp" class="codEsp">

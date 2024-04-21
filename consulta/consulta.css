@@ -83,3 +83,8 @@ label {
 input {
     max-height: 1rem;
 }
+
+.sigla {
+    max-width: 10vh;
+    text-transform: uppercase;
+}

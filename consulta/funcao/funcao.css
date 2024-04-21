@@ -1,0 +1,115 @@
+.funcao {
+    border-top: black solid 1px;
+    border-right: black solid 1px;;
+    border-left: black solid 1px;;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: white;
+    color: black;    
+}
+
+.funcao:hover {
+    color: black;
+}
+
+.paciente {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.especialidade {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.enfermeiro {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.medico {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+table {
+    flex-grow: 1;
+}
+
+.id {
+    max-width: 0.4rem;
+    border: black solid 1px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.titulo {
+    border-bottom: black solid 1px; 
+    flex-grow: 1;
+    padding-left: 0.5rem;
+}
+
+.nome {
+    border: black solid 1px;   
+    flex-grow: 2;
+    padding-left: 0.5rem;
+}
+
+.editar {
+    border: black solid 1px;
+    text-align: center;
+    max-width: 1.5rem;
+    background-color: lightgoldenrodyellow;
+}
+
+.excluir {
+    border: black solid 1px;
+    text-align: center;
+    text-decoration-color: black;
+    max-width: 1.5rem;
+    background-color: lightcoral;
+}
+
+.txtEditExcluir:link {
+    text-decoration: none;
+    color: black;
+}
+
+
+.txtEditExcluir:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+.txtEditExcluir:active {
+    text-decoration: none;
+    color: black;
+}
+
+
+.txtEditExcluir:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.txtEditEditar:link {
+    text-decoration: none;
+    color: black;
+}
+
+
+.txtEditEditar:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.txtEditEditar:active {
+    text-decoration: none;
+    color: black;
+}
+
+
+.txtEditEditar:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.linha:hover {
+    background-color: #c29f99;
+}
