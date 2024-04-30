@@ -50,3 +50,7 @@
 .email {
     min-width: 80vh;
 }
+
+fieldset {
+    min-width: 80vp;
+}

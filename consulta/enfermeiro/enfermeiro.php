@@ -16,7 +16,7 @@
         <div>
             <ul  class="menu">
                 <li><a href="../../index.html">Home</a></li>
-                <li><a href="../../cadastro/paciente/paciente.html">Cadastro</a></li>
+                <li><a href="../../cadastro/paciente/paciente.php">Cadastro</a></li>
                 <li><a>Consultas</a></li>
             </ul>
         </div>

@@ -2,8 +2,7 @@ let rua=document.getElementById('rua');
 let bairro=document.getElementById('bairro');
 let cidade=document.getElementById('cidade');
 let estado=document.getElementById('estado');
-let dddt=document.getElementById('telefone');
-let dddc=document.getElementById('celular');
+let ddd=document.getElementById('telefone');
 
 function carregaCep(){
     let txtCep = document.getElementById('cep').value;
@@ -17,7 +16,15 @@ function carregaCep(){
     bairro.value=data.bairro;
     cidade.value=data.localidade;
     estado.value=data.uf.toLowerCase();
-    dddt.value=data.ddd;
-    dddc.value=data.ddd;        
+    ddd.value=data.ddd;     
     })
+}
+
+function addTelefone() {
+    var divTelefones = document.getElementById("telefones");
+    var input = document.createElement("input");
+    input.type = "tel";
+    input.name = "telefones[]";
+    input.placeholder = "(XX)XXXXX-XXXX";
+    divTelefones.appendChild(input);
 }
